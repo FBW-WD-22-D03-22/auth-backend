@@ -1,29 +1,21 @@
 {
-  "name": "auth-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "type" : "module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server" : "nodemon src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FBW-WD-22-D03-22/auth-backend.git"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "albertleipzig <albertclemvill@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/FBW-WD-22-D03-22/auth-backend/issues"
-  },
-  "homepage": "https://github.com/FBW-WD-22-D03-22/auth-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.8.4"
+    "mongoose": "^6.9.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
